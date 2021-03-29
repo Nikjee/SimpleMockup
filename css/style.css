@@ -253,12 +253,21 @@ body.ie ._ibg img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding: 182px 0px 76px 0px;
+}
+
+.web__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
 }
 
 .web__image {
@@ -273,7 +282,6 @@ body.ie ._ibg img {
   position: relative;
   z-index: 5;
   text-align: center;
-  margin: 52px 0px 22px 0px;
 }
 
 .text__title {
@@ -283,6 +291,7 @@ body.ie ._ibg img {
   line-height: 36.66667%;
   letter-spacing: 3px;
   padding: 0px 0px 51px 0px;
+  margin: 134px 0px 0px 0px;
 }
 
 .text__subtitle {
@@ -297,7 +306,6 @@ body.ie ._ibg img {
   position: relative;
   z-index: 5;
   text-align: center;
-  height: 100%;
 }
 
 .btns__body {
@@ -305,13 +313,13 @@ body.ie ._ibg img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 0px 0px 50px 0px;
 }
 
 .btns__item {
@@ -355,7 +363,9 @@ body.ie ._ibg img {
 
 .btns__arrow {
   position: relative;
+  display: inline-block;
   padding: 20px 20px;
+  margin: 10px 0px 0px 0px;
   -webkit-animation: arrow 2s infinite ease;
           animation: arrow 2s infinite ease;
 }
@@ -1545,6 +1555,10 @@ body.ie ._ibg img {
     line-height: 25px;
   }
 
+  .text__subtitle {
+    margin: 0px 0px 20px 0px;
+  }
+
   .about {
     padding: 50px 0px 50px 0px;
   }
@@ -1646,7 +1660,7 @@ body.ie ._ibg img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    max-height: 250px;
+    margin: 0px 0px 5px 0px;
   }
 
   .btns__item {
